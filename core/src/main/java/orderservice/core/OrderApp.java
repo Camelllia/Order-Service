@@ -30,7 +30,7 @@ public class OrderApp {
         memberService.join(member);
 
         // 주문
-        Order order =orderService.createOrder(memberId, "itemA", 10000);
+        Order order = orderService.createOrder(memberId, "itemA", 10000);
 
         // 결과
         System.out.println("order = " + order.toString());
